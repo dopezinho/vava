@@ -1,0 +1,22 @@
+html {
+  --icon-height: 100px;
+  --icon-border-radius: 5px;
+  --icon-border-radius-hover: 50px;
+}
+
+body {
+  background-color: #111821;
+}
+
+.agents-duelists-img, .agents-initiators-img, .agents-controllers-img, .agents-sentinels-img {
+  border-radius: var(--icon-border-radius);
+  height: var(--icon-height);
+  transition: 2s ease-out;
+}
+
+.agents-duelists-img:hover, .agents-initiators-img:hover, .agents-controllers-img:hover, .agents-sentinels-img:hover {
+  border-radius: var(--icon-border-radius-hover);
+  transition: 0.5s ease;
+  background-color: #c82e0f;
+  opacity: 0.8;
+}
