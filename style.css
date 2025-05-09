@@ -1,11 +1,32 @@
 html {
-  --icon-height: 100px;
-  --icon-border-radius: 5px;
-  --icon-border-radius-hover: 50px;
+  --icon-height: 130px;
+  --icon-border-radius: 6px;
+  --icon-border-radius-hover: 100px;
 }
 
 body {
   background-color: #111821;
+}
+
+/* .agents-container {
+  border: 1px solid red; 
+}*/
+
+.agents-container h2{
+  color: #efe2e2;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.agents-duelists-container, .agents-initiators-container, .agents-controllers-container, .agents-sentinels-container {
+  display: flex;
+}
+
+.agents-duelists, .agents-initiators, .agents-controllers, .agents-sentinels {
+  padding: 2px;
 }
 
 .agents-duelists-img, .agents-initiators-img, .agents-controllers-img, .agents-sentinels-img {
