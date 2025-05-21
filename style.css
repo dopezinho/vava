@@ -11,6 +11,7 @@ html {
 
 body {
   background-image: linear-gradient(#101A27, #1B2634);
+  height: 100vh;
 }
 
 /* .agents-container {
