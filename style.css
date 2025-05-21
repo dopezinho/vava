@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #111821;
+  background-image: linear-gradient(#101A27, #1B2634);
 }
 
 /* .agents-container {
@@ -19,13 +19,18 @@ body {
 
 h1 {
   color: var(--white);
+  cursor: pointer;
   font-family: 'Courier New', Courier, monospace;
   font-size: 2.4rem;
   font-weight: 900;
-  margin-left: 20px;
+  padding: 20px;
 }
 
-.agents-container h2{
+h1:hover {
+  color: #b9f39c;
+}
+
+h2{
   color: var(--white);
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.2rem;
