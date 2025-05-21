@@ -2,6 +2,11 @@ html {
   --icon-height: 130px;
   --icon-border-radius: 6px;
   --icon-border-radius-hover: 100px;
+  --white: #efe2e2;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -12,8 +17,16 @@ body {
   border: 1px solid red; 
 }*/
 
+h1 {
+  color: var(--white);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
 .agents-container h2{
-  color: #efe2e2;
+  color: var(--white);
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.2rem;
   font-weight: 900;
@@ -22,7 +35,13 @@ body {
 }
 
 .agents-duelists-container, .agents-initiators-container, .agents-controllers-container, .agents-sentinels-container {
+  align-items: center;
+  border-bottom: 3px solid var(--white);
+  border-end-end-radius: 120px 80px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 10px;
 }
 
 .agents-duelists, .agents-initiators, .agents-controllers, .agents-sentinels {
